@@ -1335,7 +1335,7 @@ End Sub
 Private Sub CreateRegion()
 
 '***************************************************************************
-'*  Create region everytime you redraw a button.                           *
+'*  Create region every time you redraw a button.                           *
 '*  Because some settings may have changed the button regions              *
 '***************************************************************************
 
@@ -2174,7 +2174,7 @@ Dim lpRect           As RECT
         
     ElseIf vState = eStateOver Then
 
-        ' --Draws a gradient effect with the folowing colors
+        ' --Draws a gradient effect with the following colors
         DrawGradientEx 1, 1, lw - 2, lh - 2, TranslateColor(&HFDF9F1), TranslateColor(&HF8ECD0), gdVertical
 
         ' --Draws a gradient in half region to give a Light Effect

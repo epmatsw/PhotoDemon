@@ -2461,7 +2461,7 @@ Public Function readSelectionFromFile(ByVal srcFilename As String, Optional igno
             Exit Function
         End If
         
-        'Check to make sure this selection file verison is supported (not implemented right now, because there's only one selection version!)
+        'Check to make sure this selection file version is supported (not implemented right now, because there's only one selection version!)
         Dim selectionVersionCheck As Long
         Get #fileNum, , selectionVersionCheck
         

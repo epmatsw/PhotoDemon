@@ -37,7 +37,7 @@ Public Function PhotoDemon_SaveImage(ByRef srcPDImage As pdImage, ByVal dstPath 
     'PD will only update the MRU list if the following criteria are met:
     ' 1) no save dialog with extra options is required OR
     ' 1a) a dialog is shown and the user successfully navigates it (e.g. didn't cancel it)
-    ' 2) no errors occured during the export process.
+    ' 2) no errors occurred during the export process.
     '
     'It's not ideal, but this updateMRU is also used to determine some other non-MRU behaviors in this function - see below for details.
     Dim updateMRU As Boolean
@@ -519,7 +519,7 @@ Public Function PhotoDemon_SaveImage(ByRef srcPDImage As pdImage, ByVal dstPath 
     '****************************************************************************************************
     
     'Note: I don't like embedding metadata in a separate step, but that's a necessary evil of routing all metadata handling
-    ' through an external plugin.  Exiftool requires an existant file to be used as a target, and an existant metadata file
+    ' through an external plugin.  Exiftool requires an existent file to be used as a target, and an existant metadata file
     ' to be used as its source.
     
     'Note that updateMRU is used to track save file success, so it will only be TRUE if the image file was written successfully.

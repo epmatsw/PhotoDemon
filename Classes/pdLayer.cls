@@ -310,7 +310,7 @@ End Function
 
 Public Function getLayerNonDestructiveFXValue(ByVal ndEffect As LAYER_NONDESTRUCTIVE_FX) As Double
     
-    'Return a new value contigent on the supplied ndEffect value
+    'Return a new value contingent on the supplied ndEffect value
     Select Case ndEffect
     
         'Exposure

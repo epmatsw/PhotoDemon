@@ -833,7 +833,7 @@ Private Sub fixDockedToolbarSize(ByVal winIndex As Long)
     clientWidth = getClientWidth(mainWindowHwnd)
     
     'In rare circumstances, it's possible for the user to shrink the main form horizontally to the point that the main menu overflows
-    ' into a second row.  To accomodate this case, also recalculate the proper top client coordinate.
+    ' into a second row.  To accommodate this case, also recalculate the proper top client coordinate.
     Dim curMainFormClient As winRect
     GetClientRect mainWindowHwnd, curMainFormClient
         

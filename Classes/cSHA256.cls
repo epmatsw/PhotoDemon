@@ -566,7 +566,7 @@ End Function
 ' NOTE: Due to the way in which the string is processed the routine assumes a
 ' single byte character set. VB passes unicode (2-byte) character strings, the
 ' ConvertToWordArray function uses on the first byte for each character. This
-' has been done this way for ease of use, to make the routine truely portable
+' has been done this way for ease of use, to make the routine truly portable
 ' you could accept a byte array instead, it would then be up to the calling
 ' routine to make sure that the byte array is generated from their string in
 ' a manner consistent with the string type.

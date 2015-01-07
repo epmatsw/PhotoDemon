@@ -441,7 +441,7 @@ Private Sub cMouseEvents_MouseMoveCustom(ByVal Button As PDMouseButtonConstants,
     
     If colorJustClicked > 0 Then
     
-        'To accomodate shaky hands, allow a few mouse movements before resetting the image
+        'To accommodate shaky hands, allow a few mouse movements before resetting the image
         If colorJustClicked < 4 Then
             colorJustClicked = colorJustClicked + 1
         Else

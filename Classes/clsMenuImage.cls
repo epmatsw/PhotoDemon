@@ -835,7 +835,7 @@ Private Function LoadIconFromStream(ByRef bytIcoData() As Byte) As Long
     Dim tIconEntry() As IconEntry
     Dim MaxBitCount As Long
     Dim MaxSize As Long
-    Dim Aproximate As Long
+    Dim Approximate As Long
     Dim IconID As Long
     Dim hIcon As Long
     Dim i As Long
@@ -859,8 +859,8 @@ Private Function LoadIconFromStream(ByRef bytIcoData() As Byte) As Long
         For i = 0 To tIconHeader.ihCount - 1
             If MaxBitCount = tIconEntry(i).ieBitCount Then
                 MaxSize = CLng(tIconEntry(i).ieWidth) + CLng(tIconEntry(i).ieHeight)
-                If MaxSize > Aproximate And MaxSize <= (m_lWidth + m_lHeight) Then
-                    Aproximate = MaxSize
+                If MaxSize > Approximate And MaxSize <= (m_lWidth + m_lHeight) Then
+                    Approximate = MaxSize
                     IconID = i
                 End If
             End If

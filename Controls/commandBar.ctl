@@ -120,7 +120,7 @@ Attribute VB_Exposed = False
 ' for a tool dialog includes:
 ' - Unloading the parent when Cancel is pressed
 ' - Validating the contents of all numeric controls when OK is pressed
-' - Hiding and unloading the parent form when OK is pressed and all controls succesfully validate
+' - Hiding and unloading the parent form when OK is pressed and all controls successfully validate
 ' - Saving/loading last-used settings for all standard controls on the parent
 ' - Automatically resetting control values if no last-used settings are found
 ' - When Reset is pressed, all standard controls will be reset using an elegant system (described in cmdReset comments)

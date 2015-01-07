@@ -333,7 +333,7 @@ Attribute VB_Exposed = False
 'Last updated: 23/September/14
 'Last update: rework the interface a bit; add a button strip, increase white space, improve title labels
 '
-'Many thanks to talented contributer Audioglider for creating this tool.
+'Many thanks to talented contributor Audioglider for creating this tool.
 '
 'Standard channel mixer dialog.  Layout and feature set derived from comparable tools in Photoshop and GIMP.
 ' Per convention, all channels can be modified simultaneously.  For convenience, a "constant" slider is also

@@ -52,7 +52,7 @@ Attribute VB_Exposed = False
 ' Undo/Redo engine itself.  I believe this approach is the best one possible, so I'm hoping 2014 marks the end of
 ' massive Undo/Redo engine rewrites.  (Fingers crossed.)
 '
-'Undo/Redo data is still saved to the HDD, and will remain that way for the forseeable future.  Unlimited operations
+'Undo/Redo data is still saved to the HDD, and will remain that way for the foreseeable future.  Unlimited operations
 ' are allowed.  This class does not check HDD space availability, so errors may be thrown if the user runs out of free
 ' space.  Similarly, clearing the specified TEMP folder in the middle of program operation is a bad idea.  PD will not
 ' crash, but as expected, Undo/Redo functionality will cease to work.
@@ -354,7 +354,7 @@ Public Sub moveToSpecificUndoPoint(ByVal undoIndex As Long)
     writeUndoDataToXML generateUndoHeaderFilename()
     
     'Now that all layers have been updated against their most recent diff, we can finally redraw the screen
-    Viewport_Engine.Stage1_InitializeBuffer pdImages(g_CurrentImage), FormMain.mainCanvas(0), "Undo Pointer moved to arbitary location"
+    Viewport_Engine.Stage1_InitializeBuffer pdImages(g_CurrentImage), FormMain.mainCanvas(0), "Undo Pointer moved to arbitrary location"
     
     Message "Image successfully restored."
     

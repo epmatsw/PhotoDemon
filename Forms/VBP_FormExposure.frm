@@ -133,7 +133,7 @@ Attribute VB_Exposed = False
 'Last updated: 09/August/13
 'Last update: rewrote the exposure calculation to operate on a "stops" (power-of-2) scale
 '
-'Many thanks to talented contributer audioglider for creating this tool.
+'Many thanks to talented contributor audioglider for creating this tool.
 '
 'Basic image exposure adjustment dialog.  Exposure is a complex topic in photography, and (obviously) the best way to
 ' adjust it is at image capture time.  This is because true exposure relies on a number of variables (see

@@ -159,7 +159,7 @@ Public Property Get StatusCodeText(ByVal Index As AsyncStatusCodeConstants) As S
         Case vbAsyncStatusCodeConnecting
             Let StatusCodeText = "Connecting"
             
-        'Redirection has occured (i.e. HTTP-301/302)
+        'Redirection has occurred (i.e. HTTP-301/302)
         Case vbAsyncStatusCodeRedirecting
             Let StatusCodeText = "Redirecting"
             

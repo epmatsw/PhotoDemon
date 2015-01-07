@@ -491,7 +491,7 @@ Public Function loadImageFromDragDrop(ByRef Data As DataObject, ByRef Effect As 
             End If
         Next oleFilename
         
-        'Make sure at least one valid, existant file was found
+        'Make sure at least one valid, existent file was found
         If countFiles > 0 Then
         
             'Because the OLE drop may include blank strings, verify the size of the array against countFiles

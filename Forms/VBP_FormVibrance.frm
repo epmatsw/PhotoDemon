@@ -96,7 +96,7 @@ Attribute VB_Exposed = False
 'Last updated: 24/August/13
 'Last update: added command bar
 '
-'Many thanks to talented contributer audioglider for creating this tool.
+'Many thanks to talented contributor audioglider for creating this tool.
 '
 'Vibrance is similar to saturation, but slightly smarter, more subtle.  The algorithm attempts to provide a greater boost
 ' to colors that are less saturated, while performing a smaller adjustment to already saturated colors.

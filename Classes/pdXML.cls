@@ -235,7 +235,7 @@ Public Function doesTagExist(ByVal tagName As String, Optional ByVal attributeNa
 End Function
 
 'This is a bit different from the updateTag function below (which exists primarily to deal with INI-style entries).  This function asks
-' for a location in the master string.  The first occurrence of the tag AFTER that location will be updated wiht the new value.  The
+' for a location in the master string.  The first occurrence of the tag AFTER that location will be updated with the new value.  The
 ' current value of the tag does not need to be known.
 '
 'The intended purpose of this function is adding/updating translations to a PD language file.  In that case, getLocationOfParentTag is
@@ -270,7 +270,7 @@ Public Function updateTagAtLocation(ByVal tagName As String, ByVal newTagContent
 
 End Function
 
-'Update an already existant tag located within a specific subsection of the XML file.  If the tag is not found, it will be added
+'Update an already existent tag located within a specific subsection of the XML file.  If the tag is not found, it will be added
 ' at the end of the section.
 Public Function updateTag(ByVal tagName As String, ByVal tagContents As String, Optional ByVal sectionName As String = "", Optional ByVal sectionAttribute As String = "", Optional ByVal sectionAttributeValue As String = "", Optional ByVal createIfMissing As Boolean = True) As Boolean
 
@@ -789,7 +789,7 @@ Public Function getLocationOfParentTag(ByRef parentTagName As String, ByRef tagN
 End Function
 
 'Given a tag name, return the text between the opening and closing occurrences of that tag.  This function will always return the first
-' occurence of the specified tag, starting at the specified search position (1 by default).  If the tag is not found, a blank string will
+' occurrence of the specified tag, starting at the specified search position (1 by default).  If the tag is not found, a blank string will
 ' be returned.
 ' Optionally, a Long-type variable can be supplied as whereTagFound if the calling function wants to know where the tag was located.
 Private Function getTextBetweenTags(ByRef tagName As String, Optional ByVal searchLocation As Long = 1, Optional ByRef whereTagFound As Long = -1) As String

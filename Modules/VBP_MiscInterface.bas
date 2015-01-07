@@ -656,7 +656,7 @@ Public Sub metaToggle(ByVal metaItem As metaInitializer, ByVal NewState As Boole
                 If FormMain.MnuMetadata(0).Enabled Then FormMain.MnuMetadata(0).Enabled = False
             End If
         
-        'GPS metadata is its own sub-category, and its activation is contigent upon an image having embedded GPS data
+        'GPS metadata is its own sub-category, and its activation is contingent upon an image having embedded GPS data
         Case tGPSMetadata
         
             If g_ExifToolEnabled Then
